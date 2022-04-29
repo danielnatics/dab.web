@@ -5,7 +5,6 @@
 
 
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -19,9 +18,11 @@ span{
 nav{
     display: flex;
     align-items: center;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
     
 
 }
@@ -113,13 +114,14 @@ h4{
 .main{
     width: 1130px;
     max-width: 95%;
-    margin: 0 auto;
+    margin: 0px;
     display: flex;
     justify-content: space-around;
 }
 .about-text{
     width: 550px;
 }
+
 .about-text h2{
     font-size: 75px;
     text-transform: capitalize;
@@ -156,16 +158,19 @@ button:hover{
 .contact-me{
     width: 100%;
     height: 290px;
-    display: flex;
+    position: relative;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    text-align: center;
+    padding-top: 80px;
 }
-.contact p{
-    font-size: 30px;
+.contact-me > p{
+    
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 25px;
+    top: 15px;
 }
 .contact-me .button-two{
     background-color: #f9004d;
@@ -205,6 +210,8 @@ footer p:nth-child(2){
 }
 .social{
     display: flex;
+    margin-bottom: 40px;
+    
 
 }
 .social a {
@@ -213,16 +220,62 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f9004d;
+    background-color: transparent;
     border-radius: 50%;
-    margin: 22px 10px;
+    margin: 22px 5px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 29px;
+    transition: .3s;
+}
+.social a:hover{
+    background-color: transparent;
+    color: #f9004d;
+    
 }
 .end{
-    position: absolute;
+    font-style: normal;
     color: #f9004d;
-    bottom: 35px;
-    font-size: 14px;
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+ .top{
+    position: absolute;
+    padding: 15px;
+    background-color: #000;
+    right: 25px;
+    bottom: 10px;
+    
+    letter-spacing: 3px;
+    border-radius: 45px;
+}
+.top a{
+    background-color: #000;
+   
+    text-decoration: none;
+    color: #f9004d;
+}
+.row img{
+    width: 450px;
+    height: 460px;
+}
+div > img{
+    padding: 0px;
+    border: 5px solid transparent;
+    margin-bottom: 30px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+.tel{
+    
+    border: 3px solid black;
+}
+.tel a{
+    color: blue;
+    opacity: 1.5;
+    font-size: 19px;
+    
 }
