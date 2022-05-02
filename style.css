@@ -258,21 +258,20 @@ footer p:nth-child(2){
     text-decoration: none;
     color: #f9004d;
 }
-.row img{
-    width: 450px;
-    height: 460px;
+
+.row > div{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
 }
 div > img{
-    padding: 0px;
+    padding: 5px;
     border: 5px solid transparent;
     margin-bottom: 30px;
     border-radius: 60px;
     margin-right: 5px;
 }
-.tel{
-    
-    border: 3px solid black;
-}
+
 .tel a{
     color: blue;
     opacity: 1.5;
